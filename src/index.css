@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-sleek: #09090B;
+    --card-sleek: #111114;
+    --border-sleek: rgba(255, 255, 255, 0.08);
+    --gold-primary: #D4AF37;
+    --gold-light: #F5E1A4;
+  }
+
+  body {
+    background-color: #09090B;
+    color: #CBD5E1;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  }
+}
+
+.bg-sleek {
+  background-color: #09090B;
+}
+
+.bg-sleek-card {
+  background-color: #111114;
+}
+
+.border-sleek {
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.text-gold {
+  color: #D4AF37;
+}
+
+.bg-gold-gradient {
+  background: linear-gradient(135deg, #D4AF37 0%, #F5E1A4 100%);
+}
+
+.bg-gold-gradient-dark {
+  background: linear-gradient(135deg, #D4AF37 0%, #A68942 100%);
+}
+
+.shadow-gold {
+  box-shadow: 0 10px 25px -5px rgba(212, 175, 55, 0.2);
+}

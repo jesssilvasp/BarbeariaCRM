@@ -1,0 +1,6 @@
+{
+  "name": "BarberFlow CRM",
+  "description": "Sistema SaaS completo de gestão multiempresa para barbearias, com agendamento online, CRM, financeiro, comissões, IA integrada, WhatsApp e painel de TV.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
